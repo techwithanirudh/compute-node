@@ -1,0 +1,18 @@
+{
+  "name": "compute-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@jcubic/lips": "^1.0.0-beta.14",
+    "@koa/router": "^10.1.0",
+    "PyJS": "github:yzyzsun/PyJS",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0"
+  }
+}
