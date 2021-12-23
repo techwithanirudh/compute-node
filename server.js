@@ -53,7 +53,7 @@ router.put("/exec", async (ctx) => {
       const { stdout, stderr } = await new Promise((resolve, reject) => {
         let result = "";
         // Spawn a child process, executed separately from the main process.
-        const process = childProcess.spawn(body.language, ["eval.py"]);
+        const process = childProcess.spawn(body.language);
         // Feed the command we received through stdin
         process.stdin.end(body.command);
 
