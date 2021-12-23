@@ -1,6 +1,6 @@
 { pkgs }: {
 	deps = [
 		pkgs.nodejs
-    pkgs.python
+    	pkgs.python	
 	];
 }
